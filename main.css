@@ -1,0 +1,127 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:'Aref Ruqaa', serif;
+    background-color: #00835D;
+  
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 2.618rem 'Rajdhani', sans-serif;
+    background-image: url(https://placeimg.com/640/480/nature)
+    
+}
+h2{
+    font: bold 2.618rem'Rajdhani', sans-serif;
+}
+li, p, a{
+    font: bold 1.618rem 'Aref Ruqaa', serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Rajdhani', sans-serif;
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 1000%;
+}
+nav>ul{
+    width: 1000%;
+    float: top;
+}
+nav li{
+    width: 1000%;
+    list-style: none;
+    float: top;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.618rem 'Rajdhani', sans-serif;
+    text-align: center;
+    float: left;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    
+}
+main{
+    width: 100%;
+}
+.col{
+    float: Left;
+    width: 100%;
+}
+.col img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+}
+footer{
+    width: 100%;
+}
+
+@media screen and (min-width:600px){
+    .col{
+        float: right;
+        width: 50%;
+    }    
+    .nav{
+        width: auto;
+    }
+}
+@media screen and (min-width: 800px){
+    .col{
+        float: right;
+        width: 50%;
+    }
+    .nav{
+        width: auto;
+    }
+}
+@media screen and (min-width: 1200px){
+    .col{
+        float: right;
+        width: 50%;
+    }
+    .nav{
+        width: auto;
+    }
+    
+}
